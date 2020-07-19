@@ -1,0 +1,38 @@
+.headerMenu {
+  width: 100%;
+}
+
+.headerButton {
+  cursor: pointer;
+  float: right;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #ffd96b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.headerBar1,
+.headerBar2 {
+  width: 15px;
+  height: 3px;
+  background-color: #333;
+  margin: 2px 0;
+}
+
+.background {
+  position: absolute;
+  border-radius: 10px;
+  height: 250px;
+  display: block;
+  top: 60px;
+  right: 0;
+  bottom: 0;
+  width: 200px;
+  background: #f9f9f9;
+  border: 1px solid #00000033;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+}

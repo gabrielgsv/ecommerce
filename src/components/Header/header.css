@@ -1,0 +1,40 @@
+.headerContainer {
+  height: 50px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.headerImage {
+  min-width: 40px;
+  max-width: 40px;
+}
+
+.headerLinks {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 80%;
+}
+
+@media (max-width: 700px) {
+  .headerLinks {
+    display: none;
+  }
+}
+
+.headerItem {
+  padding: 10px 30px;
+  width: 100px;
+  margin: 0px 20px;
+  color: #000000;
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+.headerItemActive {
+  border-bottom: 1px solid #000000;
+}
