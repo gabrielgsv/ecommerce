@@ -1,0 +1,20 @@
+.productContainer{
+  margin: 20px;
+}
+
+.productImage {
+  width: 200px;
+  height: 200px;
+  background: transparent no-repeat center;
+  background-size: cover;
+  border-radius: 30px;
+}
+
+.productTitle, .productPrice {
+  font-size: 11.5pt;
+  margin: 10px;
+}
+
+.productTitle {
+  font-weight: bold;
+}
