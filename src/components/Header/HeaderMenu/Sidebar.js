@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import React from "react";
-import { FaUser, FaShoppingCart, FaHome, FaTag } from "react-icons/fa";
+import { FaShoppingCart, FaHome, FaTag } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 import "./sidebar.css";
@@ -8,13 +8,9 @@ import "./sidebar.css";
 const Sidebar = ({ handleClick }) => {
   return (
     <div className="sidebarList">
-      <div className="sidebarItem" onClick={() => handleClick()}>
-        <FaUser style={{ marginRight: 7 }} /> Conta
-      </div>
-
-      <div className="sidebarItem" onClick={() => handleClick()}>
+      <Link to="/cart" className="sidebarItem" onClick={() => handleClick()}>
         <FaShoppingCart style={{ marginRight: 7 }} /> Carrinho
-      </div>
+      </Link>
 
       <Link
         to="/"

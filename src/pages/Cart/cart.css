@@ -1,0 +1,27 @@
+.containerCart {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 700px) {
+  .boxCart {
+    width: 100% !important;
+  }
+}
+
+.boxCart {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+}
+
+@media (max-width: 700px) {
+  .formContainer {
+    width: 100% !important;
+  }
+}
+
+.formContainer {
+  width: 40%;
+}

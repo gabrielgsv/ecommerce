@@ -1,11 +1,14 @@
 import PropTypes from "prop-types";
 import React from "react";
+import { useDispatch } from "react-redux";
 
 import "./product.css";
+import { addToCart } from "../../store/actions/Cart";
 
-const Product = ({ image, title, price }) => {
+const Product = ({ id, image, title, price }) => {
+  const dispatch = useDispatch();
   return (
-    <div className="productContainer">
+    <div className="productContainer" onClick={() => dispatch(addToCart(id))}>
       <div
         style={{ backgroundImage: `url(${image})` }}
         className="productImage"
@@ -17,9 +20,10 @@ const Product = ({ image, title, price }) => {
 };
 
 Product.propTypes = {
+  id: PropTypes.number,
   image: PropTypes.string,
   price: PropTypes.number,
-  title: PropTypes.string,
+  title: PropTypes.string
 };
 
 export default Product;
