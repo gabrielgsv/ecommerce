@@ -1,0 +1,29 @@
+.priceNumbers {
+  text-align: justify;
+  width: 100%;
+}
+
+.priceButton {
+  float: right;
+  margin: 20px;
+  border: none;
+  background: #ffd96b;
+  padding: 18px 25px;
+  border-radius: 17px;
+  margin-left: 25px;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.priceButton:disabled,
+.priceButton[disabled] {
+  background-color: #555555;
+  color: #ffffff;
+  cursor: not-allowed;
+}
+
+.priceContainer {
+  display: grid;
+  grid: 50px / 2fr 1fr;
+}

@@ -31,7 +31,7 @@ const Email = ({ emailEdit, setEmailEdit, handleChange, checkoutData }) => {
             />
           </>
         ) : (
-          <span className="formInput">{checkoutData.email || "Edite seu email"}</span>
+          <span className="formInput">{checkoutData.email || "Adicione seu email"}</span>
         )}
       </p>
       {emailEdit && (

@@ -8,7 +8,7 @@ const initialState = {
   cardCode: ""
 }
 
-const Checkout = (state = {}, action) => {
+const Checkout = (state = initialState, action) => {
   const { type, inputName, data } = action;
   switch (type) {
     case "SAVE_DATA":

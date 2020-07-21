@@ -29,3 +29,21 @@ export function getById() {
     });
   };
 }
+
+export function removeByIndex(index, callback) {
+  return (dispatch) => {
+    callback()
+    dispatch({
+      type: "REMOVE_BY_INDEX",
+      index
+    })
+  }
+}
+
+export function removeAllProducts() {
+  return (dispatch) => {
+    dispatch({
+      type: "REMOVE_ALL_PRODUCTS"
+    })
+  }
+}

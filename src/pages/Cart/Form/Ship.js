@@ -61,21 +61,21 @@ const Ship = ({ shipEdit, setShipEdit, handleChange, checkoutData }) => {
           <p className="formContent">
             <FiUser className="formIcon" />
             <span className="formInput">
-              {checkoutData.name || "Edite seu nome"}
+              {checkoutData.name || "Adicione seu nome"}
             </span>
           </p>
 
           <p className="formContent">
             <FiMapPin className="formIcon" />
             <span className="formInput">
-              {checkoutData.address || "Edite seu endereço"}
+              {checkoutData.address || "Adicione seu endereço"}
             </span>
           </p>
 
           <p className="formContent">
             <FiPhone className="formIcon" />
             <span className="formInput">
-              {checkoutData.phoneNumber || "Edite seu número de telefone"}
+              {checkoutData.phoneNumber || "Adicione seu número de telefone"}
             </span>
           </p>
         </>

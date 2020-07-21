@@ -58,19 +58,19 @@ const Payment = ({ payEdit, setPayEdit, handleChange, checkoutData }) => {
           <p className="formContent">
             <FiCreditCard className="formIcon" />
             <span className="formInput">
-              {checkoutData.cardNumber || "Edite o número do cartão"}
+              {checkoutData.cardNumber || "Adicione o número do cartão"}
             </span>
           </p>
           <p className="formContent">
             <FiCalendar className="formIcon" />
             <span className="formInput">
-              {checkoutData.cardDate || "Edite a data de vencimento do cartão"}
+              {checkoutData.cardDate || "Adicione a data de vencimento do cartão"}
             </span>
           </p>
           <p className="formContent">
             <FiLock className="formIcon" />
             <span className="formInput">
-              {checkoutData.cardCode || "Edite o código de segurança do cartão"}
+              {checkoutData.cardCode || "Adicione o código de segurança do cartão"}
             </span>
           </p>
         </>
