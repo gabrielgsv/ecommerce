@@ -5,17 +5,21 @@ import Container from "../../components/Container";
 import Product from "../../components/Product";
 
 function Shoes() {
-  const Shoes = useSelector((state) => state.Shoes);
+  const Products = useSelector((state) => state.Products);
   return (
     <Container>
-      {Shoes.map((shoesItem) => (
-        <Product
-          key={shoesItem.id}
-          image={shoesItem.image}
-          title={shoesItem.title}
-          price={shoesItem.price}
-        />
-      ))}
+      {Products.map(
+        (product) =>
+          product.category === "shoes" && (
+            <Product
+              key={product.id}
+              id={product.id}
+              image={product.image}
+              title={product.title}
+              price={product.price}
+            />
+          )
+      )}
     </Container>
   );
 }

@@ -5,24 +5,16 @@ import Container from "../../components/Container";
 import Product from "../../components/Product";
 
 function Home() {
-  const Clothings = useSelector((state) => state.Clothing);
-  const Shoes = useSelector((state) => state.Shoes);
+  const Products = useSelector((state) => state.Products);
   return (
     <Container>
-      {Clothings.map((clothing) => (
+      {Products.map((product) => (
         <Product
-          key={clothing.id}
-          image={clothing.image}
-          title={clothing.title}
-          price={clothing.price}
-        />
-      ))}
-      {Shoes.map((shoesItem) => (
-        <Product
-          key={shoesItem.id}
-          image={shoesItem.image}
-          title={shoesItem.title}
-          price={shoesItem.price}
+          key={product.id}
+          id={product.id}
+          image={product.image}
+          title={product.title}
+          price={product.price}
         />
       ))}
     </Container>

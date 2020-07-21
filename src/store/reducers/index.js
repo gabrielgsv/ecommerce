@@ -1,10 +1,12 @@
-import {combineReducers} from "redux"
-import Clothing from "./Clothing"
-import Shoes from "./Shoes"
+import { combineReducers } from "redux";
+import Products from "./Products";
+import Cart from "./Cart";
+import Checkout from "./Checkout"
 
 const reducers = combineReducers({
-  Clothing,
-  Shoes
-})
+  Products,
+  Cart,
+  Checkout
+});
 
-export default reducers
+export default reducers;

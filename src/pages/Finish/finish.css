@@ -1,0 +1,13 @@
+.finishContainer {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  font-size: 16pt;
+}
+
+.finishImage {
+  min-width: 300px;
+  max-width: 500px;
+}

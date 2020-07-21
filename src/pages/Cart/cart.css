@@ -1,0 +1,37 @@
+.containerCart {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+@media (max-width: 700px) {
+  .boxCart {
+    align-items: flex-start !important;
+    width: 100% !important;
+  }
+}
+
+.boxCart {
+  justify-content: center;
+  align-items: flex-start !important;
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+}
+
+@media (max-width: 700px) {
+  .formContainer {
+    width: 100% !important;
+  }
+}
+
+.formContainer {
+  width: 40%;
+}
+
+.cartEmpty {
+  font-size: 16pt;
+  color: #888888;
+  font-weight: bold;
+  text-align: center;
+}

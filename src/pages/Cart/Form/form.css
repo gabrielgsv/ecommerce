@@ -1,0 +1,47 @@
+.formTitle {
+  font-size: 14pt;
+  font-weight: 600;
+}
+
+.formIcon {
+  color: #7f4eed;
+  font-size: 14pt;
+}
+
+.formContent {
+  display: flex;
+  align-items: center;
+}
+
+.formInput {
+  font-size: 11pt;
+  margin-left: 10px;
+  border-radius: 7px;
+  padding: 7px;
+  background-color: #f9f9f9ff;
+  min-width: 100px;
+  outline: none;
+}
+
+.formEdit {
+  font-size: 11pt;
+  float: right;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.formButton {
+  border: none;
+  background: #ffd96b;
+  padding: 8px 17px;
+  border-radius: 10px;
+  margin-left: 25px;
+  outline: none;
+  cursor: pointer;
+}

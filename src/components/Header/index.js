@@ -9,7 +9,7 @@ import logo from "../../images/logo.svg";
 const Header = () => {
   return (
     <div className="headerContainer">
-      <img className="headerImage" src={logo} />
+      <img className="headerImage" src={logo} alt="logo website"/>
       <div className="headerLinks">
         <NavLink
           exact

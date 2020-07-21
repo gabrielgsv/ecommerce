@@ -1,5 +1,7 @@
 .productContainer{
   margin: 20px;
+  position: relative;
+  height: 270px;
 }
 
 .productImage {
@@ -17,4 +19,20 @@
 
 .productTitle {
   font-weight: bold;
+}
+
+.productContainer .productAaction {
+  position: absolute;
+  color: #ffffff;
+  cursor: pointer;
+  bottom: 55px;
+  right: 5px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #633dd4e1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ffffff56;
 }
