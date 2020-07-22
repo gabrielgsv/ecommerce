@@ -28,6 +28,7 @@ const Email = ({ emailEdit, setEmailEdit, handleChange, checkoutData }) => {
               maxLength="50"
               onChange={(e) => handleChange(e)}
               options={{email: true}}
+              autoFocus
             />
           </>
         ) : (

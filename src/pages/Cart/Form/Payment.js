@@ -27,6 +27,7 @@ const Payment = ({ payEdit, setPayEdit, handleChange, checkoutData }) => {
               placeholder="Numero do cartão"
               onChange={(e) => handleChange(e)}
               options={{ creditCard: true }}
+              autoFocus
             />
           </p>
           <p className="formContent">
@@ -46,7 +47,7 @@ const Payment = ({ payEdit, setPayEdit, handleChange, checkoutData }) => {
               className="formInput"
               name="cardCode"
               value={checkoutData.cardCode}
-              maxLength="4"
+              maxLength="3"
               placeholder="Codigo de segurança do cartão"
               onChange={(e) => handleChange(e)}
               options={{numericOnly: true}}

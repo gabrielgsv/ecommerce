@@ -28,6 +28,7 @@ const Ship = ({ shipEdit, setShipEdit, handleChange, checkoutData }) => {
               maxLength="50"
               value={checkoutData.name}
               onChange={(e) => handleChange(e)}
+              autoFocus
             />
           </p>
 
