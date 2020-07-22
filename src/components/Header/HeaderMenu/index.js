@@ -9,7 +9,7 @@ const HeaderMenu = () => {
   const [isOpen, toggleOpen] = useCycle(false, true);
   const variants = {
     open: { opacity: 1, x: -20 },
-    closed: { opacity: 0.7, x: "100%" },
+    closed: { opacity: 0, x: "100%" },
   };
 
   return (
