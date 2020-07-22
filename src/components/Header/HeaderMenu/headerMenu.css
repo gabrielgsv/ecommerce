@@ -23,13 +23,13 @@
   margin: 2px 0;
 }
 
-@media (min-width: 720px) {
+@media (min-width: 700px) {
   .background {
     height: 80px;
   }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 700px) {
   .background {
     height: 210px;
   }
