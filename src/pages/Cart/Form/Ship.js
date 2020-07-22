@@ -21,7 +21,7 @@ const Ship = ({ shipEdit, setShipEdit, handleChange, checkoutData }) => {
         <>
           <p className="formContent">
             <FiUser className="formIcon" />
-            <Cleave
+            <input
               className="formInput"
               name="name"
               placeholder="Nome"
@@ -34,7 +34,7 @@ const Ship = ({ shipEdit, setShipEdit, handleChange, checkoutData }) => {
 
           <p className="formContent">
             <FiMapPin className="formIcon" />
-            <Cleave
+            <input
               className="formInput"
               name="address"
               maxLength="50"
