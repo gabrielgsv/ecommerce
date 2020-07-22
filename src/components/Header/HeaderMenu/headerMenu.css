@@ -36,7 +36,8 @@
 }
 
 .background {
-  position: fixed;
+  position: absolute;
+  z-index:2;
   border-radius: 10px;
   display: block;
   top: 60px;
